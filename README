@@ -1,7 +1,3 @@
 Small autoconf template for a bash loadable builtin it provides a "hello" builtin.
 
-The classic ./configure && make should create 
-
-
-
 You only need to replace the occurence of "hello" by the name of your own builitin to get started
