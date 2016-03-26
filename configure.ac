@@ -14,6 +14,8 @@ LT_INIT([dlopen disable-static])
 # we don't need ldconfig after installing the .so
 AC_SUBST([finish_cmds], [""])
 
+#install the .so in $(libdir)/bash
+AC_SUBST([libdir], ["$libdir/bash"])
 
 AC_CONFIG_SRCDIR([src/hello.c])
 
