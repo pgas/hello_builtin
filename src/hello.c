@@ -1,9 +1,10 @@
 /* Sample builtin to be dynamically loaded with enable -f and create a new
    builtin. */
 
-/* Except for the path to the bash headers (the prefix bash/ is
-   added), this is the same builtin example from the loadables example
-   of bash
+/* Except for the included headers from "loadables.h" that have been
+   inline manually (loadables.h is part of the examples and is not
+   installe by bash, this is the same builtin example from the
+   loadables examples that is found in the bash sources
  */
 
 /*
