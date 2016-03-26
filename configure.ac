@@ -20,6 +20,7 @@ AC_CONFIG_SRCDIR([src/hello.c])
 AC_PROG_CC
 AC_PROG_INSTALL
 
+# an option to tell configure where the bash headers are
 AC_ARG_WITH([bash],
               [AC_HELP_STRING([--with-bash],
               [The prefix where the bash headers are installed (default is /usr/include)])],
