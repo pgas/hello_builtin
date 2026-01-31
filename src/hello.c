@@ -62,7 +62,7 @@ int
 hello_builtin (list)
      WORD_LIST *list;
 {
-  printf("hello world\n");
+  printf("hello, world!\n");
   fflush (stdout);
   return (EXECUTION_SUCCESS);
 }

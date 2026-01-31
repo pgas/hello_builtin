@@ -18,5 +18,5 @@ src/.deps
 src/.libs
 src/*.la
 src/*.lo
-
+build
 
